@@ -51,7 +51,7 @@ var job = "programmer";
 job = "teacher";
 
 job = "nojob";
-*/
+
 //basic operators
 //Math operators
 const nowdays = 2026;
@@ -85,3 +85,16 @@ console.log(ageJonas >= 98);
 const isFullAge = ageSarah >= 18;
 
 console.log(nowdays - 1991 > nowdays - 2018);
+*/
+
+const nowdays = 2036;
+const ageJonas = nowdays - 1991;
+const ageSarah = nowdays - 2018;
+
+console.log(ageJonas, ageSarah);
+
+console.log(nowdays - 1991 > nowdays - 2018);
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
