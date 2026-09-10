@@ -85,7 +85,7 @@ console.log(ageJonas >= 98);
 const isFullAge = ageSarah >= 18;
 
 console.log(nowdays - 1991 > nowdays - 2018);
-*/
+
 
 const nowdays = 2036;
 const ageJonas = nowdays - 1991;
@@ -98,3 +98,40 @@ console.log(nowdays - 1991 > nowdays - 2018);
 let x, y;
 x = y = 25 - 10 - 5;
 console.log(x, y);
+*/
+////////////////////////////////////
+// Coding Challenge #1
+
+/*
+Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
+
+1. Store Mark's and John's mass and height in variables
+2. Calculate both their BMIs using the formula (you can even implement both versions)
+3. Create a boolean variable 'markHigherBMI' containing information about whether Mark has a higher BMI than John.
+
+TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
+TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
+
+*/
+
+let MarkHeight = 1.69,
+  MarkMass = 78,
+  JohnHeights = 1.95,
+  JohnMass = 92;
+let MarkBMI = MarkMass / MarkHeight ** 2;
+let JohnBMI = JohnMass / (JohnHeights * JohnHeights);
+let markHigherBMI;
+
+console.log(MarkBMI, JohnBMI);
+console.log((markHigherBMI = MarkBMI > JohnBMI));
+
+console.log("################");
+
+(MarkHeight = 1.88), (MarkMass = 95), (JohnHeights = 1.76), (JohnMass = 85);
+
+MarkBMI = MarkMass / MarkHeight ** 2;
+JohnBMI = JohnMass / (JohnHeights * JohnHeights);
+markHigherBMI;
+
+console.log(MarkBMI, JohnBMI);
+console.log((markHigherBMI = MarkBMI > JohnBMI));
