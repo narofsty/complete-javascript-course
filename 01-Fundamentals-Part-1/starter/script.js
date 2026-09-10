@@ -136,9 +136,6 @@ markHigherBMI;
 console.log(MarkBMI, JohnBMI);
 console.log((markHigherBMI = MarkBMI > JohnBMI));
 
-
-*/
-
 const job = "teacher";
 const birthYear = 1998;
 const year = 2026;
@@ -159,3 +156,5 @@ console.log(
 console.log(`String with
   multiple
   lines`);
+
+*/
