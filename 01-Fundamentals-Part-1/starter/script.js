@@ -138,3 +138,24 @@ console.log((markHigherBMI = MarkBMI > JohnBMI));
 
 
 */
+
+const job = "teacher";
+const birthYear = 1998;
+const year = 2026;
+
+const firstName = "jonas";
+
+const jonasNew = `I'm ${firstName} , a ${year - birthYear} year old ${job}!`;
+console.log(jonasNew);
+
+console.log(`Just a regulat string... `);
+
+console.log(
+  "String with \n\
+  multiple \n\
+  lines"
+);
+
+console.log(`String with
+  multiple
+  lines`);
