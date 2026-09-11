@@ -157,7 +157,7 @@ console.log(`String with
   multiple
   lines`);
 
-*/
+
 
 const age = 15;
 const isOldEnough = age >= 18;
@@ -178,3 +178,42 @@ if (birthYear < 2000) {
   century = 21;
 }
 console.log(century);
+*/
+/*
+Use the BMI example from Challenge #1, and the code you already wrote, and improve it:
+
+1. Print a nice output to the console, saying who has the higher BMI. The message can be either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
+2. Use a template literal to include the BMI values in the outputs. Example: "Mark's BMI (28.3) is higher than John's (23.9)!"
+
+HINT: Use an if/else statement 😉
+
+GOOD LUCK 😀
+
+//尽可能使用const ,
+let MarkHeight = 1.69,
+  MarkMass = 78,
+  JohnHeights = 1.95,
+  JohnMass = 92;
+let MarkBMI = MarkMass / MarkHeight ** 2;
+let JohnBMI = JohnMass / (JohnHeights * JohnHeights);
+let markHigherBMI;
+
+console.log(MarkBMI, JohnBMI);
+console.log((markHigherBMI = MarkBMI > JohnBMI));
+
+console.log("################");
+
+(MarkHeight = 1.88), (MarkMass = 95), (JohnHeights = 1.76), (JohnMass = 85);
+
+MarkBMI = MarkMass / MarkHeight ** 2;
+JohnBMI = JohnMass / (JohnHeights * JohnHeights);
+markHigherBMI;
+
+console.log(MarkBMI, JohnBMI);
+console.log((markHigherBMI = MarkBMI > JohnBMI));
+if (MarkBMI > JohnBMI) {
+  console.log("Mark's BMI is higher than John's!");
+} else {
+  console.log(`John's BMI ${JohnBMI} is higher than Mark's ${MarkBMI}!`);
+}
+*/
