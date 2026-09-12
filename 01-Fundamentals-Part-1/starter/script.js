@@ -216,7 +216,7 @@ if (MarkBMI > JohnBMI) {
 } else {
   console.log(`John's BMI ${JohnBMI} is higher than Mark's ${MarkBMI}!`);
 }
-*/
+
 
 //type conversion and coercion
 const inputYear = "1999";
@@ -230,3 +230,26 @@ console.log(String(23), 23);
 console.log(typeof 23);
 
 //数字--字符串  ->boolean
+
+//02-019 Truthy and alsy alues
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("jonas"));
+console.log(Boolean({}));
+console.log(Boolean(""));
+*/
+
+let favourite = Number(prompt("input your favort number:"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 23) {
+  console.log("Cool! 23 is an amazing number");
+} else if (favourite === 7) {
+  console.log("Cool! 7 is an amazing number");
+} else {
+  console.log(`Cool! ${favourite} is an amazing number`);
+}
+
+if (favourite !== 23) console.log("Why not 23?");
