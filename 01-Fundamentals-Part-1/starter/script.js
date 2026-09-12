@@ -217,3 +217,16 @@ if (MarkBMI > JohnBMI) {
   console.log(`John's BMI ${JohnBMI} is higher than Mark's ${MarkBMI}!`);
 }
 */
+
+//type conversion and coercion
+const inputYear = "1999";
+console.log(Number(inputYear), 1999, inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number("Wxq"));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+console.log(typeof 23);
+
+//数字--字符串  ->boolean
