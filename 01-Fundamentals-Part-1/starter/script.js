@@ -238,7 +238,6 @@ console.log(Boolean(undefined));
 console.log(Boolean("jonas"));
 console.log(Boolean({}));
 console.log(Boolean(""));
-*/
 
 let favourite = Number(prompt("input your favort number:"));
 console.log(favourite);
@@ -253,3 +252,4 @@ if (favourite === 23) {
 }
 
 if (favourite !== 23) console.log("Why not 23?");
+*/
