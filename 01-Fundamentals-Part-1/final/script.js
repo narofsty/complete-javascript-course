@@ -355,6 +355,7 @@ GOOD LUCK 😀
 // }
 
 // BONUS 1
+/*
 const scoreDolphins = (97 + 112 + 80) / 3;
 const scoreKoalas = (109 + 95 + 50) / 3;
 console.log(scoreDolphins, scoreKoalas);
@@ -372,7 +373,7 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 } else {
   console.log("No one wins the trophy 😭");
 }
-/*
+
 ////////////////////////////////////
 // The switch Statement
 const day = 'friday';
@@ -445,7 +446,7 @@ if (age >= 18) {
 console.log(drink2);
 
 console.log(`I like to drink ${age >= 18 ? 'wine 🍷' : 'water 💧'}`);
-*/
+
 
 ////////////////////////////////////
 // Coding Challenge #4

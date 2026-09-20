@@ -326,4 +326,27 @@ if (Dolphinsavg3 > 100 && Koalasavg3 > 100) {
 if ((Dolphinsavg3 + Koalasavg3) / 100 < 2) {
   console.log("point is less than 100");
 }
+
+const day = "friday";
+
+switch (day) {
+  case "monday":
+    console.log("test1");
+    console.log("JavaScript");
+    break;
+  case "friday":
+    console.log("Right");
+    console.log("Go to the bed");   
+    break;
+  default:
+    console.log("study");
+}
+// Coding Challenge #4
+
+const bill = 430;
+let tip;
+if (bill >= 50 && bill <= 300 ? (tip = bill * 0.15) : (tip = bill * 0.2)) {
+  console.log(`bill is ${bill}, tip is ${tip}, plus is ${bill + tip}`);
+}
+
 */
