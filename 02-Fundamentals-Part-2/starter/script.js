@@ -58,7 +58,7 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 };
 console.log(yearsUntilRetirement(1999, "naro"));
 
-*/
+
 
 function cutFruitPieces(fruit) {
   return fruit * 2;
@@ -73,3 +73,27 @@ function fruitProcessor(apples, oranges) {
   return juice;
 }
 console.log(fruitProcessor(2, 3));
+*/
+const calcAge = function (year) {
+  return 2026 - year;
+};
+
+const yearsUntilRetirement = (birthYear, firstName) => {
+  const age = calcAge(birthYear);
+  const retirement = 65 - age;
+  //return retirement;
+  if (retirement > 0) {
+    console.log(`${firstName} retires in ${retirement} years`);
+    return retirement;
+    //return 后会直接退出函数，后面的将不会展示
+    console.log(`${firstName} retires in ${retirement} years`);
+  } else {
+    console.log(`${firstName} has already retired `);
+    return -1;
+    console.log(`${firstName} has already retired `);
+  }
+
+  //return `${firstName} retires in ${retirement} years`;
+};
+console.log(yearsUntilRetirement(1999, "naro"));
+console.log(yearsUntilRetirement(1950, "naro"));
