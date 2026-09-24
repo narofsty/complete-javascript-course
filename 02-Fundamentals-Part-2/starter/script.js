@@ -128,10 +128,10 @@ const calcAvage = (scores) => scores / 3;
 
 
 
-/*3. Create a function 'checkWinner' that takes the average score of each team as parameters ('avgDolhins' and 'avgKoalas'), 
+3. Create a function 'checkWinner' that takes the average score of each team as parameters ('avgDolhins' and 'avgKoalas'), 
 and then logs the winner to the console, 
 together with the victory points, according to the rule above. Example: "Koalas win (30 vs. 13)".
-4. Use the 'checkWinner' function to determine the winner for both DATA 1 and DATA 2.*/
+4. Use the 'checkWinner' function to determine the winner for both DATA 1 and DATA 2.
 
 function checkWinner(avgDolhins, avgKoalas) {
   if (avgDolhins * 2 <= avgKoalas) {
@@ -148,3 +148,21 @@ const dolphinsData2 = calcAvage(85 + 54 + 41);
 const koalasData2 = calcAvage(23 + 54 + 27);
 checkWinner(dolphinsData2, koalasData2);
 */
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+console.log(calcAverage(3, 4, 5));
+
+// Test 1
+let scoreDolphins = calcAverage(44, 23, 71);
+let scoreKoalas = calcAverage(65, 54, 49);
+console.log(scoreDolphins, scoreKoalas);
+
+const checkWinner = function (avgDolphins, avgKoalas) {
+  if (avgDolphins >= 2 * avgKoalas) {
+    console.log(`Dolphins win 🏆 (${avgDolphins} vs. ${avgKoalas})`);
+  } else if (avgKoalas >= 2 * avgDolphins) {
+    console.log(`Koalas win 🏆 (${avgKoalas} vs. ${avgDolphins})`);
+  } else {
+    console.log("No team wins...");
+  }
+};
+checkWinner(scoreDolphins, scoreKoalas);
