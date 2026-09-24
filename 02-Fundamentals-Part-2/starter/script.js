@@ -147,7 +147,7 @@ checkWinner(dolphinsData1, koalasData1);
 const dolphinsData2 = calcAvage(85 + 54 + 41);
 const koalasData2 = calcAvage(23 + 54 + 27);
 checkWinner(dolphinsData2, koalasData2);
-*/
+
 const calcAverage = (a, b, c) => (a + b + c) / 3;
 console.log(calcAverage(3, 4, 5));
 
@@ -166,3 +166,4 @@ const checkWinner = function (avgDolphins, avgKoalas) {
   }
 };
 checkWinner(scoreDolphins, scoreKoalas);
+*/
