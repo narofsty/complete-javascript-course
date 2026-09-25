@@ -167,3 +167,22 @@ const checkWinner = function (avgDolphins, avgKoalas) {
 };
 checkWinner(scoreDolphins, scoreKoalas);
 */
+const friends = ["Michael", "Steven", "Peter"];
+console.log(friends);
+
+console.log(friends[0]);
+console.log(friends[2]);
+
+console.log(friends.length);
+
+console.log(friends[friends.length - 1]);
+
+friends[2] = "Jay";
+console.log(friends);
+
+//friends = ["Bob", "Alice"];
+const firstName = "Jonas";
+const jonas = [firstName, "Schmedtmann", 2037 - 1999, "teacher", friends];
+
+console.log(jonas);
+console.log(jonas.length);
