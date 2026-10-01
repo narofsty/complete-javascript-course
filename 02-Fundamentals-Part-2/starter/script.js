@@ -252,7 +252,7 @@ const calcTip = function (bill) {
 const bill = [125, 555, 44];
 bill.calcTip();
 console.log(tip);
-*/
+
 const calcTip = function (bill) {
   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 };
@@ -266,3 +266,48 @@ const tips = [
 ];
 
 console.log(tips);
+*/
+//object
+const jonasArray = [
+  "Jonos",
+  "Schemdma",
+  "teacher",
+  ["mich", "peter", "steven"],
+];
+
+const jonas = {
+  firstName: "Jonas",
+  lastName: "Schmedtmann",
+  age: 35 - 8,
+  job: "teacher",
+  friends: ["michael", "Peter", "Steven"],
+};
+console.log(jonas.lastName);
+console.log(jonas["lastName"]);
+
+const nameKey = "Name";
+console.log(jonas["first" + nameKey]);
+console.log(jonas["last" + nameKey]);
+
+const interestedIn = prompt(
+  "what do you want to know about Jonas? Choose between firstName,lastName,age, job, and friends",
+);
+
+if (jonas[interestedIn]) {
+  console.log(jonas[interestedIn]);
+} else {
+  console.log(
+    "Wrong request!Choose between firstName,lastName,age, job, and friends",
+  );
+}
+
+jonas.location = "Portugal";
+jonas["atwitter"] = "@jonassschmedtman";
+console.log(jonas);
+
+//challenge
+//jonas has 3 friends,his best friend is called michael
+
+console.log(
+  `${jonas.firstName} has ${jonas.friends.length} friends,his best friend is called ${jonas.friends[0]}`,
+);
