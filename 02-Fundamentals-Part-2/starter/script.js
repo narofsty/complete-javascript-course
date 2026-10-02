@@ -58,7 +58,7 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 };
 console.log(yearsUntilRetirement(1999, "naro"));
 
-*/
+
 
 function cutFruitPieces(fruit) {
   return fruit * 2;
@@ -217,7 +217,7 @@ console.log(friends.includes(23));
 if (friends.includes("Steven")) {
   console.log("You have a friends called Steven!");
 }
-  */
+
 
 /*
 Steven is still building his tip calculator, using the same rules as before: 
