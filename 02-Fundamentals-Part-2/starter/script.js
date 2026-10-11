@@ -310,4 +310,21 @@ console.log(jonas);
 console.log(
   `${jonas.firstName} has ${jonas.friends.length} friends,his best friend is called ${jonas.friends[0]}`,
 );
+
+const jonas = {
+  firstName: "Jonas",
+  lastName: "Schmedtmann",
+  birthYear: 1999,
+  job: "teacher",
+  friends: ["michael", "Peter", "Steven"],
+  hasDriversLicense: true,
+
+  calcAge: function (birthYear) {
+    return 2026 - birthYear;
+  },
+};
+
+const calcAage = function (birthYear) {
+  return 2026 - birthYear;
+};
 */
