@@ -53,7 +53,7 @@
 //debug
 //const array1 = [1, 3, 0];
 //const array2 = [4, -1, 9];
-
+/*
 const calcTempAmplitude = function (array1, array2) {
   const temps = array1.concat(array2);
   let max = temps[0];
@@ -71,3 +71,22 @@ const calcTempAmplitude = function (array1, array2) {
 };
 const amplitudeNew = calcTempAmplitude([1, 3, 0], [4, -1, 9]);
 console.log(amplitudeNew);
+
+const measureKelvin = function () {
+  const measurement = {
+    type: "temp",
+    unit: "celsius",
+    value: Number(prompt("degrees celsius")),
+  };
+  console.log(measurement);
+  console.table(measurement);
+  //   console.log(measurement.value);
+  //   console.warn(measurement.value);
+  //   console.error(measurement.value);
+
+  const kelvin = measurement.value + 273;
+  console.log(typeof measurement.value);
+  return kelvin;
+};
+console.log(measureKelvin());
+*/
