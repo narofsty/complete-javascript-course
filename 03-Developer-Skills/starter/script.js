@@ -103,7 +103,7 @@ Use the problem-solving framework: Understand the problem and break it up into s
 
 TEST DATA 1: [17, 21, 23]
 TEST DATA 2: [12, 5, -5, 0, 4]
-*/
+
 //1.循环输出数组中的值，并且输出对应的下标 + 1
 
 //2.输出一个返回一个
@@ -117,3 +117,4 @@ const printForecast = function (arr) {
   return str;
 };
 console.log("..." + printForecast(data2));
+*/
